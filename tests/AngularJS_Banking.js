@@ -8,7 +8,7 @@ describe('demo calculator test', function () {
         // browser.get('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login');
         homepage.get('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login');
 
-
+       
 
         // element(by.css('[ng-click="manager()"]')).click();
         homepage.bank_manager_login_button_click();
@@ -25,7 +25,10 @@ describe('demo calculator test', function () {
         // element(by.model('postCd')).sendKeys('638701');
         addcustomerpage.postcode_input('638701');
 
+        //it click add customer button
+        addcustomerpage.addcustomer_button_click();
+       
 
-        browser.sleep(2000);
+        browser.sleep(4000);
     });
 });

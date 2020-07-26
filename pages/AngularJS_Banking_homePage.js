@@ -1,3 +1,6 @@
+//page class for home page 
+// page function for 1 buttoon in home page 
+//page function for Bank Manager Login Button
 let homepage = function () {
     let bank_manager_login_button = element(by.css('[ng-click="manager()"]'));
 
