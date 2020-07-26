@@ -50,7 +50,7 @@ $webdriver-manager update
 $cd “file path location”
 $protractor conf.js
 
-IDE Installation Steps  IDE – VS CODE
+# IDE Installation Steps  IDE – VS CODE
 1)	Download visual studio code = https://code.visualstudio.com/download
 2)	Install VS Code
 3)	In VS Code extensions menu – install support for JavaScript and TypeScript
@@ -69,12 +69,12 @@ $ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 $ protractor .\conf\conf.js
 Hint : for path settings: (can use tab key to get the path)
 
-Allure Report Installation Steps
+# Allure Report Installation Steps
 
 1)	To know the commands of allure report, Go to = https://www.npmjs.com/package/jasmine-allure-reporter
 
 2)	To install allure report, give below command in cmd prompt,
-$ npm i –g  jasmine-allure-reporter
+   $ npm i –g  jasmine-allure-reporter
 
 3)	Go to VS Code  open conf file  give the below code,
 
@@ -94,7 +94,7 @@ $ npm i –g allure-commandline
 
 Now can check the project folder for report
 
-GIT Integration Steps
+# GIT Integration Steps
 
 GIT can be integrated in 2 ways ,
 1.	Through IDE –VS Code
