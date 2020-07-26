@@ -26,6 +26,6 @@ describe('demo calculator test', function () {
         addcustomerpage.postcode_input('638701');
 
 
-        browser.sleep(3000);
+        browser.sleep(2000);
     });
 });
