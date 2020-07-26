@@ -1,3 +1,17 @@
+# Protractor End-End framework setup includes,
+--> NodeJS congiguration
+--> IDE VS CODE Configuration
+--> Allure Report setup
+--> Git Integration
+--> Jenkins Integration
+
+# Project includes 
+--> Test file 
+--> POM(Page Object Model) for each page
+--> conf file for framework and browser config
+--> Allure Report
+--> Screenshot
+
 # ProtractorFrameworkProject
 Node JS Installation Steps
 
