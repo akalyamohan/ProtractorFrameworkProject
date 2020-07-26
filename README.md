@@ -1,16 +1,24 @@
 # Protractor End-End framework setup includes,
---> NodeJS congiguration
---> IDE VS CODE Configuration
---> Allure Report setup
---> Git Integration
---> Jenkins Integration
+1) NodeJS congiguration
+2) IDE VS CODE Configuration
+3) Allure Report setup
+4) Git Integration
+5) Jenkins Integration
 
 # Project includes 
---> Test file 
---> POM(Page Object Model) for each page
---> conf file for framework and browser config
---> Allure Report
---> Screenshot
+1) Test file 
+2) POM(Page Object Model) for each page
+3) conf file for framework and browser config
+4) Allure Report
+5) Screenshot
+
+# Miscellaneous 
+1) Jasmine syntax and coding standard = https://jasmine.github.io/2.0/introduction
+2) Jasmine cheat sheet = https://devhints.io/jasmine
+3) Protractor API = https://www.protractortest.org/#/api?view=ProtractorBy
+4) VS Code extension 
+ Protractor Snippet and guidelines for protractor snippet = https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-protractor-snippets
+ Code Runner
 
 # ProtractorFrameworkProject
 Node JS Installation Steps
