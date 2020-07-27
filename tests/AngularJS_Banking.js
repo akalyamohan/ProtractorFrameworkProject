@@ -43,6 +43,7 @@ describe('demo banking application test', function () {
         //it click add customer button
         addcustomerpage.addcustomer_button_click();
        
+        // alert flow
        let EC = protractor.ExpectedConditions;
        browser.wait(EC.alertIsPresent(), 4000, "Alert not found");
         
@@ -50,6 +51,12 @@ describe('demo banking application test', function () {
       // let AlertText = alert.getText();
       //expect(alertText).toContain("Customer Added Successfully");
        alert.accept();
+
+       // it click open account button 
+       browser.manage().timeouts().implicitlyWait(5000);
+       addcustomerpage.openaccount_element_click();
+
+   
 
         browser.sleep(4000);
     });

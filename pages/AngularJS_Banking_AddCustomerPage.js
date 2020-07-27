@@ -6,6 +6,8 @@ let AddCustomer_Page = function () {
     let post_code_element = element(by.model('postCd'));
     let addCustomer_element = element(by.className('btn btn-default'));
 
+    let openaccount_element = element(by.buttonText('Open Account'));
+
     //firstname element locator
     this.firstname_input = function (firstname) {
         first_name_element.sendKeys(firstname);
@@ -23,6 +25,10 @@ let AddCustomer_Page = function () {
 
     this.addcustomer_button_click = function() {
         addCustomer_element.click();
+    }
+
+    this.openaccount_element_click = function(){
+        openaccount_element.click();
     }
 };
 
