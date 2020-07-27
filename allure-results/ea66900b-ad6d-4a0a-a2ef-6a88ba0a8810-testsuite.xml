@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595829961470' stop='1595829969842'>
+    <name>demo banking application test</name>
+    <title>demo banking application test</title>
+    <test-cases>
+        <test-case start='1595829961475' status='passed' stop='1595829969839'>
+            <name>check for work flow</name>
+            <title>check for work flow</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='04cbc2f4-c2cd-4940-bbad-a0edc2112e81-attachment.png' type='image/png' size='18723'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
