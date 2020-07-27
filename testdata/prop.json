@@ -1,0 +1,11 @@
+{
+    "siteurl" : "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login",
+    "customers" :
+        {
+            "firstname" : "bobby",
+            "lastname" : "simha",
+            "postalcode" : "12345"
+        }
+       
+    
+}
