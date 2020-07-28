@@ -6,11 +6,14 @@
 5) Jenkins Integration
 
 # Project includes 
-1) Test file 
+1) Test file with functionality,
+Page Title has been checked 
+Textboxes, Alert and buttons
 2) POM(Page Object Model) for each page
 3) conf file for framework and browser config
-4) Allure Report
-5) Screenshot
+4) Allure Report and HTML Reporter
+5) JSON Prop file for test data
+6) cross browser testing with chrome and firefox(parallel execution)
 
 # Miscellaneous 
 1) Jasmine syntax and coding standard = https://jasmine.github.io/2.0/introduction
@@ -94,12 +97,30 @@ $ npm i –g allure-commandline
 
 Now can check the project folder for report
 
+# HTML Reporter 
+
+1) Install HTML reporter with following command in cmd prompt,
+$ npm i -g protractor-html-reporter-2
+2) details of config details be found in following page = https://www.npmjs.com/package/protractor-html-reporter-2
+3) Add complete and onprepare function of reporter to confi file in VS code 
+
 # GIT Integration Steps
 
 GIT can be integrated in 2 ways ,
 1.	Through IDE –VS Code
 2.	Through cmd prompt
 
-Steps to Integrate GIT through cmd prompt
-
-
+Steps to Integrate GIT through cmd prompt, I have used following commands,
+download git in local system
+create repository in github in cloud
+1) $ git config --global user.name ""
+2) $ git config --global user.email ""
+3) move to project folder that needed to upload in git, in cmd prompt using cd...
+4) $ git add * or git add "filename"
+5) $ git status(optional as I need to check files are in staging)
+6) $ git commit -m "message"
+7) $ git remote add origin master "repo url"
+8) $ git push origin master 
+9) some times it shows error as if we have readme file so we have to pull that to local system and make a code push
+so for that give following command before push
+$ git pull origin master --unrelated histories 
